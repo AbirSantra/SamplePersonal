@@ -1,0 +1,161 @@
+:root {
+  --dblue: #2ec4b6;
+  --lblue: #cbf3f0;
+  --lyellow: #ffbf69;
+  --dyellow: #ff9f1c;
+  --oregano: "Oregano", cursive;
+  --ptsans: "PT Sans", sans-serif;
+  --handlee: "Handlee", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: var(--ptsans);
+}
+
+h1 {
+  margin: 75px auto 0px auto;
+  font-family: var(--handlee);
+  font-size: 6.25rem;
+  color: var(--dblue);
+}
+
+h2 {
+  color: #2ec4b6;
+  font-size: 3rem;
+  margin: 0px auto;
+  padding: 25px;
+}
+
+h3 {
+  color: #2ec4b6;
+  font-size: 1.5rem;
+}
+
+a {
+  display: inline-block;
+  color: #186860;
+  margin: 10px 20px;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #cbf3f0;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: 6px dotted #bfccca;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+  /* padding: 10px 0px; */
+}
+
+/* Classes */
+
+.top-container {
+  background-color: var(--lblue);
+  position: relative;
+  padding-top: 150px;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  color: #2ec4b6;
+  font-weight: 400;
+}
+
+.middle-container {
+  padding: 75px 0px;
+}
+
+.profile {
+  padding: 50px;
+}
+
+.bio {
+  width: 25%;
+  padding: 20px;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+}
+
+.contact-para {
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid #2ec4b6;
+  background-color: #2ec4b6;
+  color: white;
+  border-radius: 35px;
+  text-decoration: none;
+  font-size: 1.5625rem;
+  padding: 10px 25px;
+  margin: 20px auto;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 2px solid #2ec4b6;
+  color: #2ec4b6;
+}
+
+.bottom-container {
+  background-color: var(--dblue);
+  padding: 50px 0 20px;
+}
+
+.copy {
+  color: white;
+}
+
+/* Images */
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 150px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain {
+  width: 45%;
+}
+
+.MyImage {
+  width: 15%;
+}
+
+.webimg {
+  width: 20%;
+  float: left;
+  margin-right: 50px;
+}
+
+.gdimg {
+  width: 20%;
+  float: right;
+  margin-left: 50px;
+}
